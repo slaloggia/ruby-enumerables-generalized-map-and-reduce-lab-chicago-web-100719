@@ -21,6 +21,6 @@ def reduce(source_array, start_value = 0)
       i += 1
 
   end
-  return total
+  return !!total
   
 end
