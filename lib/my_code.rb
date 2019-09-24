@@ -21,6 +21,11 @@ def reduce(source_array, start_value = 0)
       i += 1
 
   end
-  return total
+  
+  if total == Integer
+    return total
+  else
+    return !!total
+  end
   
 end
