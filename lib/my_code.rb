@@ -23,6 +23,6 @@ def reduce(source_array, start_value = 0)
 
   end
   
-  
+  return total
   
 end
