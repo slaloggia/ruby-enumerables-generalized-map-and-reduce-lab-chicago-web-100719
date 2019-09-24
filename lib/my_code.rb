@@ -23,10 +23,8 @@ def reduce(source_array, start_value = 0)
 
   end
   
-  if total.is_a?(Integer) == true 
-    return total
-  else
-    return !!total
-  end
+  
+  return total
+  
   
 end
