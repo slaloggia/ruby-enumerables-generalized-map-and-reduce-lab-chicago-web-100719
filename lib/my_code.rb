@@ -12,7 +12,7 @@ def map(array)
 end
 
 
-def reduce(source_array, start_value = 0)
+def reduce(source_array, start_value = true)
   i = 0 
   total = start_value
   
