@@ -23,9 +23,6 @@ def reduce(source_array, start_value = 0)
 
   end
   
-    if total == 0 
-      return TRUE
-    else
       return total
       
     end
